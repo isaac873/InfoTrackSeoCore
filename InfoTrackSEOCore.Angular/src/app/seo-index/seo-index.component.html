@@ -1,0 +1,9 @@
+<div *ngIf="result.length > 0">
+  <p>http://www.infotrack.com.au was found in the following index positions on Google.</p>
+  <ul>
+    <li *ngFor="let value of result">{{value}}</li>
+  </ul>
+</div>
+<div>
+  <p>{{errorMessage}}</p>
+</div>
